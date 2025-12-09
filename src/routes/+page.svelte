@@ -18,7 +18,7 @@
 			</picture>
 		</span>
 
-		to your new<br />SvelteKit app LALALA5 6
+		to your new<br />SvelteKit app LALALA5 678
 	</h1>
 
 	<h2>
