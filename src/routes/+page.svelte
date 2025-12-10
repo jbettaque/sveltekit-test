@@ -18,7 +18,7 @@
 			</picture>
 		</span>
 
-		to your new<br />SvelteKit app TEST
+		to your new<br />SvelteKit app TEST Lala
 	</h1>
 
 	<h2>
