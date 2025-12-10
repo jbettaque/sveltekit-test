@@ -18,7 +18,7 @@
 			</picture>
 		</span>
 
-		to your new<br />SvelteKit app DEV Branch
+		to your new<br />SvelteKit app DEV Branch test
 	</h1>
 
 	<h2>
