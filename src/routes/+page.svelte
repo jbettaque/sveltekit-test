@@ -2,6 +2,8 @@
 	import Counter from './Counter.svelte';
 	import welcome from '$lib/images/svelte-welcome.webp';
 	import welcomeFallback from '$lib/images/svelte-welcome.png';
+
+	export let data;
 </script>
 
 <svelte:head>
@@ -26,6 +28,11 @@
 	</h2>
 
 	<Counter />
+
+	<div class="env-test">
+		<h3>Environment Variable Test</h3>
+		<p>SVELTE_TEST_VAR: <strong>{data.svelteTestVar || '(not set)'}</strong></p>
+	</div>
 </section>
 
 <style>
