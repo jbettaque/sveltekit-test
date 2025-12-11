@@ -1,3 +1,7 @@
-// since there's no dynamic data here, we can prerender
-// it so that it gets served as a static asset in production
-export const prerender = true;
+import { env } from '$env/dynamic/public';
+
+export function load() {
+	return {
+		svelteTestVar: env.PUBLIC_SVELTE_TEST_VAR
+	};
+}
